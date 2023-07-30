@@ -1,0 +1,95 @@
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Create a 3-column grid layout */
+  gap: 61px; /* Add 61px spacing between cards */
+  justify-content: center;
+  margin-bottom: 61px; /* Add 61px spacing between each row of cards */
+}
+/* Add these styles to your CSS file */
+.creditCardsContainer {
+  width: 100%;
+  height: calc(100vh - 460px); /* Adjust the height as per your requirements */
+  overflow-y: auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+.expanded {
+  height: auto;
+  margin-bottom: 20px; /* Add some margin at the bottom to separate expanded cards */
+  cursor: pointer;
+  transition: height 0.3s ease;
+}
+
+.cards {
+  display: flex; /* Change to flex to make cards flow from left to right */
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 61px; /* Add 61px spacing between each card */
+}
+.card {
+  width: 100%;
+    height: 116%;
+  flex-shrink: 0;
+  border-radius: 15px;
+  border: 0.2px solid #eff5fe;
+  background: #fff;
+  box-shadow: 0px 0px 3px 0px rgba(50, 87, 164, 0.25) inset,
+    0px 20px 50px 0px rgba(73, 122, 226, 0.20);
+  margin-right: 61px; /* Add right margin for spacing between cards */
+  margin-bottom: 61px; /* Add 61px spacing between each card */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  overflow: hidden; /* Hide content that overflows the card */  }
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.description {
+  font-size: 16px;
+  padding: 0 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.minimumScore {
+  font-size: 16px;
+  font-weight: bold;
+}
+.favoriteButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.heartIcon {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.favorite {
+  .heartIcon {
+    color: red;
+  }
+}
+.image {
+  width: 106%;
+  height: 117px;
+  flex-shrink: 0;
+  overflow: hidden;
+  border-radius: 15px;
+
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Scale the image to cover the entire container */
+}

@@ -1,0 +1,176 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding-bottom: 100px;
+  }
+  
+  .heading {
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .selectedButton {
+    background-color: #ccc; /* Change the color to gray when selected */
+  }
+  
+  .highlighted {
+    background-color: violet; /* New CSS class for violet highlight */
+    color: white; /* Set the text color to white for better contrast */
+  }
+  
+
+  .subjectsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Add spacing between the subjects */
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  
+  .button {
+    display: flex;
+    width: 257px;
+    height: 60px;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: linear-gradient(356deg, #9f9df8 0%, #cdccfd 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .nextButton1 {
+    width: 280px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: #9f9df8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+  
+  .nextButton {
+    width: 415px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: #9f9df8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .disabled {
+    pointer-events: none;
+    opacity: 0.5;
+  }
+  
+  .icon {
+    /* Styles for the icon, adjust as needed */
+  }
+  
+  .selectedSubjectContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    width: 257px;
+    height: 60px;
+    padding: 12px;
+    justify-content: center;
+    border-radius: 25px;
+    background: linear-gradient(356deg, #9F9DF8 0%, #CDCCFD 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 10px;
+  }
+  .pointsInput {
+    width: 80px;
+    height: 40px;
+    border: 2px solid #9F9DF8;
+    border-radius: 20px;
+    padding: 0 15px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  /* Styles for the "Далее" button */
+  .formNextButton {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+    width: 257px;
+    height: 60px;
+    padding: 12px;
+    justify-content: center;
+    border-radius: 25px;
+    background: linear-gradient(356deg, #9F9DF8 0%, #CDCCFD 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .formNextButton:hover {
+    background-color: #CDCCFD;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create a 3-column grid layout */
+    gap: 61px; /* Add 61px spacing between cards */
+    justify-content: center;
+    margin-bottom: 61px; /* Add 61px spacing between each row of cards */
+  }
+  
+  .card {
+    width: 390px;
+    height: 369px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 0.2px solid #eff5fe;
+    background: #fff;
+    box-shadow: 0px 0px 3px 0px rgba(50, 87, 164, 0.25) inset, 0px 20px 50px 0px rgba(73, 122, 226, 0.20);
+    margin-right: 61px; /* Add right margin for spacing between cards */
+    margin-bottom: 61px; /* Add 61px spacing between each card */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    overflow: hidden; /* Hide content that overflows the card */
+  }
+  

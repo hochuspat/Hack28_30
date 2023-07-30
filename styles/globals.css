@@ -1,0 +1,71 @@
+
+body {
+  color: #000;
+  font-family: "ABeeZee", sans-serif;
+    font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.wrapper {
+  overflow: hidden; /* Prevent the background image from overflowing */
+}
+
+.backgroundImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/1.png");
+  background-size: cover;
+  z-index: -1; /* Move the background behind other elements */
+}
+.backgroundImage2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/7.svg");
+  background-size: cover;
+  z-index: -1; /* Move the background behind other elements */
+}
+
+/* Additional styles for the logo and login button */
+
+/* Header */
+
+
+/* Navigation */
+
+
+
+
+.navigation li {
+  margin: 10px;
+}
+
+.navigation a {
+  color: #6a1b9a;
+  text-decoration: none;
+  font-family: "ABeeZee", sans-serif;
+
+}
+
+
+/* Container */
+
+
+/* Media query for screens with width up to 768px (e.g., mobile devices) */
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 100%; /* Stretch container to the full screen width */
+    padding: 5px; /* Reduce the internal padding for a more compact view */
+  }
+}
+
+/* styles/global.css */
+
+/* styles/global.css */
+

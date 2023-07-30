@@ -1,0 +1,71 @@
+/* News.module.css */
+
+/* Calendar Styles */
+.container {
+  display: flex;
+  justify-content: space-between; /* Add space between news and calendar */
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.news-container {
+  display: flex;
+  margin-left: 168px;
+  flex-direction: column;
+  align-items: center; /* Center the news cards horizontally */
+}
+
+.card {
+  width: 80%;
+  height: 369px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  border: 0.2px solid #eff5fe;
+  background: #fff;
+  box-shadow: 0px 0px 3px 0px rgba(50, 87, 164, 0.25) inset, 0px 20px 50px 0px rgba(73, 122, 226, 0.20);
+  margin-bottom: 15px; /* Reduced spacing between news cards */
+  overflow: hidden;
+  display: flex;
+  flex-direction: column; /* Arrange the text content from top to bottom */
+  padding: 20px; /* Add padding to the card */
+}
+
+.calendar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Align the calendar to the right */
+}
+
+.calendar-date {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Reduced spacing between calendar dates */
+}
+
+.date-circle {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #4A90E2; /* Adjust the color as needed */
+  margin-right: 10px;
+}
+
+/* Set a fixed width for the calendar date titles */
+.calendar-date h3 {
+  width: 180px; /* Adjust the width as needed */
+  margin: 0; /* Remove default margin to prevent extra spacing */
+}
+
+.calendar {
+  display: flex;
+  flex-direction: column;
+}
+
+/* The rest of the styles remain the same */
+
+
+
+
+
+
+

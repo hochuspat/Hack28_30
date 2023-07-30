@@ -1,0 +1,65 @@
+.header{
+    margin-top: 163px;
+    font-family: "ABeeZee", sans-serif;
+}
+  
+  .new {
+    background-color: purple;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    width: 45px;
+    margin-left: 119px;
+
+  }
+  
+  .link {
+    font-weight: bold;
+    margin-left: 119px;
+
+  }
+  
+  .title {
+    color: #000;
+    font-family: "ABeeZee", sans-serif;    font-size: 33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 86px;
+    width: 574px;
+    margin-left: 119px;
+  }
+  /* styles/Header.module.css */
+
+/* ... other styles ... */
+
+.buttonContainer {
+    margin-left: 119px;
+
+    justify-content: center;
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
+  
+  .button {
+    width: 415px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: #9F9DF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-family: "ABeeZee", sans-serif;
+  }
+  
+  .arrow {
+    margin-left: 10px; /* Adjust the margin as needed */
+  }
+  

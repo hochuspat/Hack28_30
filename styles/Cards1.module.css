@@ -1,0 +1,230 @@
+/* styles/Home.module.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "ABeeZee", sans-serif;
+  }
+  
+  .heading {
+    color: #000;
+    text-align: center;
+    font-family: "ABeeZee", sans-serif;    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90px; /* 183.673% */
+
+  }
+  
+  .cards {
+    display: flex; /* Change to flex to make cards flow from left to right */
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 61px; /* Add 61px spacing between each card */
+  }
+  
+  .card {
+    width: 390px;
+    height: 369px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 0.2px solid #eff5fe;
+    background: #fff;
+    box-shadow: 0px 0px 3px 0px rgba(50, 87, 164, 0.25) inset,
+      0px 20px 50px 0px rgba(73, 122, 226, 0.20);
+    margin-right: 61px; /* Add right margin for spacing between cards */
+    margin-bottom: 61px; /* Add 61px spacing between each card */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    overflow: hidden; /* Hide content that overflows the card */  }
+  
+    .image {
+        width: 80%;
+        height: 195px;
+        flex-shrink: 0;
+        overflow: hidden;
+        border-radius: 15px;
+
+      }
+      
+      .image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Scale the image to cover the entire container */
+      }
+  
+  
+
+  
+  .title {
+    color: #111;
+    font-family: "ABeeZee", sans-serif;    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: center; /* Add this line to center the text */
+  }
+  
+  .link {
+    color: #3257a4;
+    font-family: "ABeeZee", sans-serif;    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .buttonContainer {
+    margin-left: 119px;
+
+    justify-content: center;
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
+  .buttonContainer2 {
+
+    justify-content: center;
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
+  
+  
+  .arrow {
+    margin-left: 10px; /* Adjust the margin as needed */
+  }
+.cardDetailsContainer {
+  position: relative; /* Add this to position the "Back" button relative to the container */
+}
+
+.buttonContainer2 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1; /* Ensure it's above other content */
+}
+  .button {
+    width: 415px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: #9F9DF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .arrow {
+    margin-left: 10px; /* Adjust the margin as needed */
+  }
+  
+  /* ... (Previous styles remain unchanged) ... */
+
+.largeCard {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 15px;
+  border: 0.2px solid #eff5fe;
+  background: #fff;
+  box-shadow: 0px 0px 3px 0px rgba(50, 87, 164, 0.25) inset,
+    0px 20px 50px 0px rgba(73, 122, 226, 0.20);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+  margin: 0 auto; /* Center the card horizontally */
+}
+
+.largeCardImage {
+  width: 200px; /* Adjust the image size as needed */
+  height: 200px; /* Adjust the image size as needed */
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.largeCardInfo {
+  text-align: center;
+}
+
+/* ... (Rest of your styles remain unchanged) ... */
+/* Cards1.module.css */
+.cardDetailsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.button {
+  cursor: pointer;
+  background: #9F9DF8;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 100px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.arrow {
+  margin-right: 8px;
+}
+
+.largeCard {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.largeCardImage {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+
+.largeCardInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.smallCardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 61px; /* Add spacing between rows of smaller cards */
+}
+
+.smallCard {
+  width: 390px;
+  height: 369px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  border: 0.2px solid #eff5fe;
+  background: #fff;
+  box-shadow: 0px 0px 3px 0px rgba(50, 87, 164, 0.25) inset,
+    0px 20px 50px 0px rgba(73, 122, 226, 0.20);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 61px; /* Add spacing between each smaller card */
+  margin-right: 61px; /* Add spacing between smaller cards */
+  overflow: hidden; /* Hide content that overflows the card */
+}
+
+.smallCard img {
+  width: 80%;
+  height: 195px;
+  flex-shrink: 0;
+  overflow: hidden;
+  border-radius: 15px;
+}

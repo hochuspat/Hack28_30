@@ -1,0 +1,158 @@
+/* Test.module.css */
+.cards {
+    display: flex;
+    justify-content: center; /* Align children horizontally to the center */
+    align-items: center; /* Align children vertically to the center */
+    flex-wrap: wrap;
+    margin: 0 auto; /* To center the cards container */
+  }
+  
+  .card {
+    flex-basis: 48%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Update the width to center the card */
+    width: 400px;
+  }
+  
+  .budgetGreen {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px;
+    background-color: #6abf69; /* Green color for budget */
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .budgetPurple {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px;
+    background-color: #7a52a8; /* Purple color for contract */
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .nextButton1 {
+    width: 280px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: #9f9df8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  /* Styles for the test result container */
+  .resultContainer {
+    text-align: center;
+  }
+  
+  .resultContainer h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  .resultContainer h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  
+  .resultContainer p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .repeatButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .repeatButton:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styles for the specialty cards */
+  .specialtyCards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Display 3 cards in a row */
+    grid-gap: 20px; /* Add spacing between the specialty cards */
+    margin-top: 30px;
+  }
+.budgetGreen {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 5px;
+  background-color: #6abf69; /* Green color for budget */
+  color: white;
+  border-radius: 5px;
+}
+
+.budgetPurple {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 5px;
+  background-color: #7a52a8; /* Purple color for contract */
+  color: white;
+  border-radius: 5px;
+}я
+  .specialtyCards div {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex; /* Make the specialty cards flex containers */
+    align-items: center; /* Align items vertically in the center */
+  }
+  
+  /* Update the image size in the specialty cards */
+  .specialtyImage {
+    width: 50px; /* Set the desired width for the image */
+    height: 50px; /* Set the desired height for the image */
+    flex-shrink: 0;
+    overflow: hidden;
+    border-radius: 15px 0 0 15px; /* Making the left corners rounded and the right corners square */
+    margin-right: 10px; /* Add some spacing between the image and the content */
+  }
+  
+  /* ... (rest of the styles above) */
+  
+  .card {
+    width: 100%;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 0.2px solid #eff5fe;
+    background: #fff;
+    box-shadow: 0px 0px 3px 0px rgba(50, 87, 164, 0.25) inset, 0px 20px 50px 0px rgba(73, 122, 226, 0.20);
+    /* Update margin to add padding */
+    margin-right: -20px;
+    margin-bottom: 29px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative; /* To ensure child elements are positioned relative to this card */
+  }
+  
